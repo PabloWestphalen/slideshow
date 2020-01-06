@@ -1,0 +1,28 @@
+{
+  "name": "slideshow",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "productName": "Slideshow - This date on previous years",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/PabloWestphalen/slideshow",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "PabloWestphalen",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.7"
+  },
+  "dependencies": {
+    "electron-settings": "^3.2.0",
+    "moment": "^2.24.0",
+    "moment-range": "^4.0.2"
+  }
+}
